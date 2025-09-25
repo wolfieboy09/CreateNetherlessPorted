@@ -5,5 +5,6 @@
   "itemGroup.tabcreate_netherless_tab": "Create: Netherless",
   "item.create_netherless.ectoplasm": "Ectoplasm",
   "item.create_netherless.netherite_fragment": "Netherite Fragment",
-  "item.create_netherless.incomplete_soul_sand": "Incomplete Soul Sand"
+  "item.create_netherless.incomplete_soul_sand": "Incomplete Soul Sand",
+  "block.create_netherless.incomplete_soul_sand": "Incomplete Soul Sand"
 }
