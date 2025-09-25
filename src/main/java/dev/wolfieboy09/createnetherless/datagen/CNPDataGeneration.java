@@ -28,5 +28,7 @@ public class CNPDataGeneration {
         event.addProvider(new CNPMixingRecipeGen(output, lookupProvider));
         event.addProvider(new CNPPolishingRecipeGen(output, lookupProvider));
         event.addProvider(new CNPSequencedRecipeGen(output, lookupProvider));
+
+        event.addProvider(new CNPGlobalLootModifierProvider(output, lookupProvider));
     }
 }

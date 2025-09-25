@@ -1,5 +1,6 @@
 package dev.wolfieboy09.createnetherless;
 
+import dev.wolfieboy09.createnetherless.loot.CNPLootModifiers;
 import dev.wolfieboy09.createnetherless.registries.CNPBlocks;
 import dev.wolfieboy09.createnetherless.registries.CNPCreativeTab;
 import dev.wolfieboy09.createnetherless.registries.CNPItems;
@@ -25,6 +26,7 @@ public class CreateNetherless {
         CNPItems.BLOCK_ITEMS.register(modEventBus);
         CNPBlocks.BLOCKS.register(modEventBus);
         CNPCreativeTab.CREATIVE_TAB.register(modEventBus);
+        CNPLootModifiers.LOOT_MODIFIER_SERALIZERS.register(modEventBus);
         NeoForge.EVENT_BUS.addListener(CreateNetherless::coalRodBurnTime);
     }
 

@@ -1,0 +1,17 @@
+{
+  "type": "create_netherless:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/phantom"
+    },
+    {
+      "chance": 0.25,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "item": "create_netherless:ectoplasm"
+}
