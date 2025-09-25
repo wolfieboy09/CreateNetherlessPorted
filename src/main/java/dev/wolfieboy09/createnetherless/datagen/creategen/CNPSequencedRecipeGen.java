@@ -1,4 +1,4 @@
-package dev.wolfieboy09.createnetherless.datagen.workers;
+package dev.wolfieboy09.createnetherless.datagen.creategen;
 
 import com.simibubi.create.api.data.recipe.SequencedAssemblyRecipeGen;
 import com.simibubi.create.content.fluids.transfer.FillingRecipe;
