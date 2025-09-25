@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:mycelium"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:warped_nylium"
+    }
+  ]
+}

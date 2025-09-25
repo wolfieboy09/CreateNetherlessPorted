@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherrack"
+    }
+  ]
+}

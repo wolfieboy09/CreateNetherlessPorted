@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "E": {
+      "item": "create_netherless:ectoplasm"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "C",
+    "S",
+    "E"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:soul_torch"
+  }
+}

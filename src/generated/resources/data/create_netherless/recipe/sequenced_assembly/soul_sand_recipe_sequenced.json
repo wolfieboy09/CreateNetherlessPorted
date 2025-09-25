@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "loops": 8,
+  "results": [
+    {
+      "id": "minecraft:soul_sand"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_netherless:incomplete_soul_sand"
+        },
+        {
+          "item": "minecraft:bone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_netherless:incomplete_soul_sand"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_netherless:incomplete_soul_sand"
+  }
+}

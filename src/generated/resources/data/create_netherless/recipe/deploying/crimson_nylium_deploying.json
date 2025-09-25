@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:mycelium"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:crimson_nylium"
+    }
+  ]
+}
