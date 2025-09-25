@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_netherless:coal_rod"
+    }
+  ]
+}

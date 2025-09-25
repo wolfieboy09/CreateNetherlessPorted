@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.5,
+      "id": "minecraft:coal"
+    },
+    {
+      "chance": 0.01,
+      "id": "create_netherless:netherite_fragment"
+    }
+  ]
+}
