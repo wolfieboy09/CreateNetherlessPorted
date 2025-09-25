@@ -1,8 +1,8 @@
 package dev.wolfieboy09.createnetherless.datagen.creategen;
 
 import com.simibubi.create.api.data.recipe.CrushingRecipeGen;
-import dev.wolfieboy09.createnetherless.registries.CNPItems;
 import dev.wolfieboy09.createnetherless.CreateNetherless;
+import dev.wolfieboy09.createnetherless.registries.CNPItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Items;

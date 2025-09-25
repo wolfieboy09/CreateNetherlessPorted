@@ -6,11 +6,8 @@ import dev.wolfieboy09.createnetherless.registries.CNPItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
-import net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition;
-import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.neoforged.neoforge.common.data.GlobalLootModifierProvider;
 import net.neoforged.neoforge.common.loot.LootTableIdCondition;
 
@@ -28,7 +25,6 @@ public class CNPGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         new LootTableIdCondition.Builder(
                                 ResourceLocation.withDefaultNamespace("entities/phantom")
                         ).build(),
-                        LootItemRandomChanceCondition.randomChance(0.25f).build(),
                         LootItemKilledByPlayerCondition.killedByPlayer().build()
                 }, CNPItems.ECTOPLASM.get()));
     }

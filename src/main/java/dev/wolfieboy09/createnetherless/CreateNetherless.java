@@ -1,20 +1,18 @@
 package dev.wolfieboy09.createnetherless;
 
+import com.mojang.logging.LogUtils;
 import dev.wolfieboy09.createnetherless.loot.CNPLootModifiers;
 import dev.wolfieboy09.createnetherless.registries.CNPBlocks;
 import dev.wolfieboy09.createnetherless.registries.CNPCreativeTab;
 import dev.wolfieboy09.createnetherless.registries.CNPItems;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.furnace.FurnaceFuelBurnTimeEvent;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
-
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.ModContainer;
 
 @Mod(CreateNetherless.MOD_ID)
 public class CreateNetherless {
